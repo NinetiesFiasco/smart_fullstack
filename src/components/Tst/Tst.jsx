@@ -2,7 +2,6 @@ import React,{useState,useEffect} from 'react';
 import s from './Tst.module.css';
 
 const Tst = (props) => {
-  debugger;
   let [apiCall,setApiCall] = useState("no answer");
 
   useEffect(()=>{
