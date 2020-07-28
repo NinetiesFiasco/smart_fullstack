@@ -2,7 +2,8 @@
 import {tstAPI} from '../api/api';
 
 // Название типа события
-const GET_TST = "GET_TST";
+const prfx = (val) => "smart_fullstack.tst." + val;
+const GET_TST = prfx("GET_TST");
 
 // Стартовое состояние
 let initialState = {
